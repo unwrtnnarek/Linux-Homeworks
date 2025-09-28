@@ -1,7 +1,7 @@
-#include <unistd.h>   // для write, read, close
-#include <fcntl.h>    // для open
-#include <stdlib.h>   // для exit
-#include <stdio.h>    // для perror
+#include <unistd.h>   // write, read, close
+#include <fcntl.h>    //  open
+#include <stdlib.h>   // exit
+#include <stdio.h>    // perror
 
 int main(int argc, char **argv) {
     const char msg[] = "Usage: ./read-file <filename>\n";
